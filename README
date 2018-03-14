@@ -1,0 +1,1 @@
+Mike and I first pseudocoded. During our pseudocode, we wrote we needed to "flip-flop" the arrays. In looking at differnet methods dealing with arrays, I saw the reverse method and thought that it could be connected to a flip-flop. Turns out, this worked very well with a short amount of code. The reverse method simply reversed [0] and [2], thus making our Meerkat normal again. 
