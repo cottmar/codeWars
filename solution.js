@@ -1,3 +1,4 @@
+
 function insertDash(num) {
   num+=''
   var var1=num.charAt(0);
