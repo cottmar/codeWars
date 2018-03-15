@@ -1,0 +1,4 @@
+Panos and I psuedocoded in the afternoon of Wednesday. He came up with a possible solution and showed me the use of % in coding. % is modulus/remainder and is useful in this case to use true/false to find if the numbers are even or odd.
+
+Panos:
+Wednesday afternoon we whiteboarded and came up with an idea. Then we did an initial implementation but we had to split before we finished it, so we decided to each try and create our own solution and bring it today. I ended up creating a solution which, while certainly not elegent, worked. There was a lot of troubleshooting of insignificant errors which ended up costing a frustrating amount of time.
