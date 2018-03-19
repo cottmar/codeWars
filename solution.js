@@ -1,6 +1,5 @@
 
-function validatePIN (pin) {
-  let correctPin = new RegExp('^([0-9]{4}|[0-9]{6})$');
-  return correctPin.test(pin);
+function validateUsr(username) {
+  res =  /^[a-z_0-9]{4,16}$/.test(username)
+  return res
 }
-
