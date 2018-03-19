@@ -1,3 +1,10 @@
-Sean and I pseudocoded for about 10 minutes on March 15th. 
-Sean found a solution this morning in about 5 minutes and we went through it together a couple of times to talk it out and discuss how it works. 
-New concepts for me that I learned are using exclusive truthy/falsy, charAt, and modules to get even/odd numbers. 
+I didn't psuedocode but rather used the https://regexr.com/ cheatsheets and https://regex101.com/ to try to put something together. 
+Here are the parts i found most important for this kata:
+
+\d matches a digit character
+
+^ matches the beginning of the input 
+
+$ matches the end of an output
+
+| matches x or y
