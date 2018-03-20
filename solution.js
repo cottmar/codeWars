@@ -1,3 +1,4 @@
+
 function isNice(arr) {
   let flag = false;
   for( let i = 0; i < arr.length; i++){
@@ -8,3 +9,4 @@ function isNice(arr) {
    }
   return flag;
   }
+r
