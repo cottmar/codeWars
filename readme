@@ -1,0 +1,3 @@
+Jose and I pseudocoded yesterday before leaving and thought our solution would follow a for/if/else method. 
+
+We each came this morning with solutions and went with Jose's. His included a ternary operator. A new concept I learned was .includes, which is a method that determines whether an array includes a certain element and will return true/false as appropriate. 
