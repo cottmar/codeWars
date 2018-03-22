@@ -1,3 +1,4 @@
+
 function formatWords(words){
   function formatWords(words){
      if (words === null||words.length <= 0){return ""};
