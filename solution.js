@@ -1,10 +1,8 @@
-function isNice(arr) {
-  let flag = false;
-  for( let i = 0; i < arr.length; i++){
-   flag = (arr.includes(arr[i]+ 1) || arr.includes(arr[i] - 1)) ? true : false ;  
-    if (flag === false) {
-    return flag;
-    }
-   }
-  return flag;
+function formatWords(words){
+  function formatWords(words){
+     if (words === null||words.length <= 0){return ""};
+     let filterArr = words.filter(x => x);
+     let answer = (filterArr.length >= 1) ? filterArr.join(", ").replace(/,(?=[^,]*$)/,' and') : filterArr.join(" and ");
+     return answer;
+  }  
   }
