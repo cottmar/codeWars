@@ -1,4 +1,4 @@
 
-function solution(str){
-  return str.split('').reverse().join('');  
+function filter_list(l) {
+  return l.filter(Number.isInteger);
 }
