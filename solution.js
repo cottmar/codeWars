@@ -1,3 +1,5 @@
-function solution(str){
-  return str.split('').reverse().join('');  
+function double(array) {
+  return array.map(function(a) {
+    return a * 2;
+  });
 }
