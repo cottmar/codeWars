@@ -1,3 +1,4 @@
+
 function cubeOdd(arr) {
   if (arr.every(n => n % 2 === 0)) return 0;
   if (arr.every(n => n === parseInt(n))) {
@@ -5,3 +6,4 @@ function cubeOdd(arr) {
   }
   return undefined;
   }
+
