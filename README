@@ -1,0 +1,1 @@
+This solution stumped me. I really wanted to use the replace method but it was never needed. Instead the concat method was used which concatenates the string arguments to the calling string and returns a new string.
