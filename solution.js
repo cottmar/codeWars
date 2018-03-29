@@ -1,3 +1,4 @@
+
 function mutateMyStrings(stringOne, stringTwo) {
   let stringOneArray = stringOne.split('');
   let stringTwoArray = stringTwo.split('');
@@ -12,4 +13,3 @@ function mutateMyStrings(stringOne, stringTwo) {
     }
   }
   return result;
-}
