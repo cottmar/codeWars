@@ -17,3 +17,11 @@ function mutateMyStrings(stringOne, stringTwo) {
 function squareSum(numbers){
   return numbers.reduce((sum,num) => sum + (num * num), 0);
 }
+
+const updateLight = current => {
+  return {
+    red: 'green',
+    yellow: 'red',
+    green: 'yellow'
+  }[current];
+}
