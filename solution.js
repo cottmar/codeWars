@@ -1,3 +1,4 @@
+
 function mutateMyStrings(stringOne, stringTwo) {
   let stringOneArray = stringOne.split('');
   let stringTwoArray = stringTwo.split('');
@@ -12,6 +13,7 @@ function mutateMyStrings(stringOne, stringTwo) {
     }
   }
   return result;
+
 }
 
 function squareSum(numbers){
@@ -31,3 +33,10 @@ SELECT
   LOG(number2) AS log
 FROM
   decimals
+
+
+function filter_list(l) {
+  return l.filter(Number.isInteger);
+
+}
+
