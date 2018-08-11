@@ -13,9 +13,30 @@ function mutateMyStrings(stringOne, stringTwo) {
     }
   }
   return result;
-=======
+
+}
+
+function squareSum(numbers){
+  return numbers.reduce((sum,num) => sum + (num * num), 0);
+}
+
+const updateLight = current => {
+  return {
+    red: 'green',
+    yellow: 'red',
+    green: 'yellow'
+  }[current];
+}
+
+SELECT
+  SQRT(number1) AS root,
+  LOG(number2) AS log
+FROM
+  decimals
+
 
 function filter_list(l) {
   return l.filter(Number.isInteger);
 
 }
+
