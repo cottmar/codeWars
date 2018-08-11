@@ -13,3 +13,7 @@ function mutateMyStrings(stringOne, stringTwo) {
   }
   return result;
 }
+
+function squareSum(numbers){
+  return numbers.reduce((sum,num) => sum + (num * num), 0);
+}
